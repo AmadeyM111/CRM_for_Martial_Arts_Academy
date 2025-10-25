@@ -6,6 +6,7 @@ backups/
 exports/
 config/
 .env
+.history/
 
 # Python
 __pycache__/

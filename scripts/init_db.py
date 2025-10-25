@@ -22,17 +22,17 @@ def create_sample_data():
     try:
         # Create trainers
         main_trainer = Trainer(
-            first_name="Александр",
-            last_name="Петров",
-            phone="+7-999-111-22-33",
-            email="trainer@bjj-academy.ru",
+            first_name="Main",
+            last_name="Trainer",
+            phone="+7-999-000-00-01",
+            email="trainer@example.com",
             is_main=True
         )
         reserve_trainer = Trainer(
-            first_name="Михаил",
-            last_name="Сидоров",
-            phone="+7-999-222-33-44",
-            email="reserve@bjj-academy.ru",
+            first_name="Reserve",
+            last_name="Trainer",
+            phone="+7-999-000-00-02",
+            email="reserve@example.com",
             is_main=False
         )
         
@@ -43,49 +43,49 @@ def create_sample_data():
         # Create students
         students_data = [
             {
-                "first_name": "Иван",
-                "last_name": "Иванов",
-                "phone": "+7-999-123-45-67",
-                "telegram_id": "@ivanov",
-                "email": "ivan@example.com",
+                "first_name": "Student",
+                "last_name": "One",
+                "phone": "+7-999-000-00-01",
+                "telegram_id": "@student1",
+                "email": "student1@example.com",
                 "current_belt": "White",
-                "notes": "Начинающий ученик"
+                "notes": "Sample student 1"
             },
             {
-                "first_name": "Петр",
-                "last_name": "Петров",
-                "phone": "+7-999-234-56-78",
-                "telegram_id": "@petrov",
-                "email": "petr@example.com",
+                "first_name": "Student",
+                "last_name": "Two",
+                "phone": "+7-999-000-00-02",
+                "telegram_id": "@student2",
+                "email": "student2@example.com",
                 "current_belt": "Blue",
-                "notes": "Опытный ученик"
+                "notes": "Sample student 2"
             },
             {
-                "first_name": "Сидор",
-                "last_name": "Сидоров",
-                "phone": "+7-999-345-67-89",
-                "telegram_id": "@sidorov",
-                "email": "sidor@example.com",
+                "first_name": "Student",
+                "last_name": "Three",
+                "phone": "+7-999-000-00-03",
+                "telegram_id": "@student3",
+                "email": "student3@example.com",
                 "current_belt": "Purple",
-                "notes": "Продвинутый ученик"
+                "notes": "Sample student 3"
             },
             {
-                "first_name": "Анна",
-                "last_name": "Козлова",
-                "phone": "+7-999-456-78-90",
-                "telegram_id": "@kozlov",
-                "email": "anna@example.com",
+                "first_name": "Student",
+                "last_name": "Four",
+                "phone": "+7-999-000-00-04",
+                "telegram_id": "@student4",
+                "email": "student4@example.com",
                 "current_belt": "White",
-                "notes": "Новая ученица"
+                "notes": "Sample student 4"
             },
             {
-                "first_name": "Дмитрий",
-                "last_name": "Смирнов",
-                "phone": "+7-999-567-89-01",
-                "telegram_id": "@smirnov",
-                "email": "dmitry@example.com",
+                "first_name": "Student",
+                "last_name": "Five",
+                "phone": "+7-999-000-00-05",
+                "telegram_id": "@student5",
+                "email": "student5@example.com",
                 "current_belt": "Brown",
-                "notes": "Опытный практик"
+                "notes": "Sample student 5"
             }
         ]
         
@@ -172,14 +172,14 @@ def create_sample_data():
         # Create belt exams
         exam_data = [
             {
-                "student_id": students[1].id,  # Петр Петров
+                "student_id": students[1].id,  # Student Two
                 "belt_color": "Blue",
                 "exam_date": datetime.now() - timedelta(days=60),
                 "result": "Pass",
                 "notes": "Отличный экзамен"
             },
             {
-                "student_id": students[2].id,  # Сидор Сидоров
+                "student_id": students[2].id,  # Student Three
                 "belt_color": "Purple",
                 "exam_date": datetime.now() - timedelta(days=120),
                 "result": "Pass",

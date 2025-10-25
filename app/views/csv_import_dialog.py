@@ -147,7 +147,7 @@ class CSVImportDialog:
 
 Пример:
 first_name,last_name,phone,telegram_id,email,current_belt,notes
-Иван,Иванов,+7-999-123-45-67,@ivanov,ivan@example.com,White,Начинающий ученик
+Student,One,+7-999-000-00-01,@student1,student1@example.com,White,Beginner student
         """
         
         help_label = ttk.Label(help_frame, text=help_text.strip(), justify=tk.LEFT)

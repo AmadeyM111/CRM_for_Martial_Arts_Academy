@@ -83,9 +83,9 @@ class StudentsTab(QWidget):
         # TODO: Implement database loading
         # For now, add sample data
         sample_students = [
-            (1, "Иван", "Иванов", "+7-999-123-45-67", "@ivanov", "White", "2024-01-15"),
-            (2, "Петр", "Петров", "+7-999-234-56-78", "@petrov", "Blue", "2024-02-20"),
-            (3, "Сидор", "Сидоров", "+7-999-345-67-89", "@sidorov", "Purple", "2024-03-10"),
+            (1, "Student", "One", "+7-999-000-00-01", "@student1", "White", "2024-01-15"),
+            (2, "Student", "Two", "+7-999-000-00-02", "@student2", "Blue", "2024-02-20"),
+            (3, "Student", "Three", "+7-999-000-00-03", "@student3", "Purple", "2024-03-10"),
         ]
         
         self.students_table.setRowCount(len(sample_students))

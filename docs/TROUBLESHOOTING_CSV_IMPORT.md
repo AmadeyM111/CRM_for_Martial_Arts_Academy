@@ -36,8 +36,8 @@ pip install -r requirements.txt
 ### 4. **Пример правильного CSV файла**
 ```csv
 first_name,last_name,phone,telegram_id,email,current_belt,notes
-Иван,Иванов,+7-999-123-45-67,@ivanov,ivan@example.com,White,Начинающий ученик
-Петр,Петров,+7-999-234-56-78,@petrov,petr@example.com,Blue,Опытный ученик
+Student,One,+7-999-000-00-01,@student1,student1@example.com,White,Beginner student
+Student,Two,+7-999-000-00-02,@student2,student2@example.com,Blue,Intermediate student
 ```
 
 ### 5. **Отладка**
