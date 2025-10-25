@@ -54,8 +54,8 @@ BJJ CRM System - это полнофункциональная система у
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/AmadeyM111/-CRM_For_Martial_Arts_Academy.git
-cd -CRM_For_Martial_Arts_Academy
+git clone https://github.com/AmadeyM111/CRM_for_Martial_Arts_Academy.git
+cd CRM_for_Martial_Arts_Academy
 ```
 
 ### 2. Создание виртуального окружения
